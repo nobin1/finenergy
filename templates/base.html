@@ -1,0 +1,161 @@
+{% load i18n %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>{% trans 'Finland Water and Energy Services Association' %}</title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<meta name="author" content="Nabin Nepal" />
+	<link rel=stylesheet href="../static/style.css" type="text/css" />
+	<script src="../static/jquery.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../static/script.js" type="text/javascript" charset="utf-8"></script>
+
+		
+	
+</head>
+
+<body>
+
+<div id="page-container">
+
+	<div id="main-nav">
+	
+		<ul>
+		        <li class="blue">
+		            <p><a href="/">{% trans 'Home' %}</a></p>
+		        </li>
+		
+		        <li class="blue">
+		            <p><a href="/about/">{% trans 'About' %}</a></p>
+		        </li>
+		
+		        <li class="blue">
+		            <p><a href="/contact/">{% trans 'Contact' %}</a></p>
+		        </li>
+		   		       
+		    </ul>
+
+	</div>
+	
+	
+	
+	
+	<div id="header">
+		
+	<div id="lang">
+		<table>
+		<tr><td><form action="/i18n/setlang/" method="post" id="form_en"><div style="display:none"><input type="hidden" name="language" value="en" /><input name="next" type="hidden" value="/" /></div></form>
+          <a class=""  href="#" onclick="document.getElementById('form_en').submit();">
+            <img src="/static/en.png" BORDER=0  alt="Finnish" />
+          </a> </td>
+          
+        
+         
+         <td><form action="/i18n/setlang/" method="post" id="form_fi"><div style="display:none"><input type="hidden" name="language" value="fi" /><input name="next" type="hidden" value="/" /></div></form>
+          <a class="selected"  href="#" onclick="document.getElementById('form_fi').submit();">
+            <img src="/static/fi.png" BORDER=0 alt="English" />
+          </a></td></tr>
+         </table>
+	</div>
+		
+		
+		
+		
+<!-------<div id="langform">
+					<ul>
+                   <li> <form id="langform_se" action="/i18n/setlang/" method="post">
+                        <div><input type="hidden" name="language" value="sv">
+                        <button id="sv_btn_up" type="submit">Swedish</button></div>
+                    </form>
+                    <form id="langform_en" action="/language/setlang/" method="post">
+                        <div><input type="hidden" name="language" value="en">
+
+                        <button id="en_btn_down" type="submit">English</button></div>
+                    </form></li>
+                    </ul>
+                </div>
+
+		
+<div id="lang">
+		<ul>
+			<li><form action="/i18n/setlang/" method="post">
+			<select name="language">
+			{% for lang in LANGUAGES %}
+			<option value="{{ lang.0 }}">{{ lang.1 }}</option>
+			{% endfor %}
+			</select>
+			<input type="submit" value="Select Language" />
+			</form></li>
+		</ul>
+	</div>-->
+	
+	
+	<h1>{% trans 'Finland Water and Energy Services Association' %}</h1>
+		
+	</div>
+	
+
+	<div id="sidebar-a">
+		
+	<dl>
+		<dt><a href="#">{% trans 'Members' %}</a></dt>
+		<dd>	
+		<ul>
+			<li><a href="http://www.m-et-s-power.net/">M &S Oy Power Limited</a></li>
+			<li><a href="http://www.energia.fi/EN">{% trans 'Finnish Energy Industries' %}</a></li>
+			<li><a href="http://www.managenergy.net/actors/A1503.htm">{% trans 'National Association of Finnish Energy Agencies' %}</a></li>
+		</ul>
+		</dd>
+			
+		
+		
+		<dt><a href="#">{% trans 'Statistics and Studies' %}</a></dt>
+		<dd>
+		<ul>
+			<li><a href="http://www.energia.fi/en/statistics/rapidreport">{% trans 'Monthly electricity supply in Finland' %}</a></li>
+			<li><a href="http://www.tem.fi/index.phtml?l=en&s=170">{% trans 'Electricity market' %}</a></li>
+			<li><a href="http://www.tem.fi/index.phtml?l=en&s=171">{% trans 'Natural gas market' %}</a></li>
+		</ul>
+		</dd>
+		
+	<dt><a href="/events/">{% trans 'News and Events' %}</a></dt> 
+	<dd>
+	<ul>
+	<li><a href="#">{% trans 'Meeting at 27th October Helsinki' %}</a>	</li>
+	</ul>
+	</dd>
+			
+	<dt><a href="/events/">{% trans 'Links' %}</a></dt> 
+	<dd>
+	<ul>
+	<li><a href="http://www.tem.fi/?l=en&s=2070">{% trans 'Ministry of Employment and Economy' %}</a>	</li>
+	<li><a href="http://www.energy-enviro.fi/">Energy Enviro Finland</a></li>
+	<li><a href="http://akseli.tekes.fi/opencms/opencms/OhjelmaPortaali/ohjelmat/Groove/en/etusivu.html">Tekes-Groove</a></li>
+	</ul>
+	</dd>
+	
+	</dl>	
+		
+	</div><!-- end #sidebar-a -->
+
+	
+	<div id="content">
+	{% block content %}
+	{% endblock %}
+	</div>
+	
+	<div id="footer">
+		<div id="altnav">
+			<a href="/about/">{% trans 'About' %}</a> | 
+			<a href="/contact/">{% trans 'Contact' %}</a>
+		</div>
+		Design © NN
+	</div>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,105 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-10-03 15:54+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: .\templates\about.html.py:5 .\templates\index.html.py:12
+msgid ""
+"The aim of the association is to discuss share and promote devlopment and "
+"use of various water and  energy services in Finland.Currently the "
+"association has got 5 member companies."
+msgstr ""
+"Tavoitteena on yhdistyksen keskustella jakaa ja edistää kehityspankin ja "
+"käyttää eri vesi-ja energiahuollon palveluita Suomessa. Tällä hetkellä "
+"yhdistys on saanut 5 jäsenyritystä."
+
+#: .\templates\base.html.py:7 .\templates\base.html.py:95
+msgid "Finland Water and Energy Services Association"
+msgstr "Suomen vesi-ja energia palvelut yhdistys"
+
+#: .\templates\base.html.py:27
+msgid "Home"
+msgstr "Etusivu"
+
+#: .\templates\base.html.py:31 .\templates\base.html.py:151
+msgid "About"
+msgstr "Tietoja"
+
+#: .\templates\base.html.py:35 .\templates\base.html.py:152
+msgid "Contact"
+msgstr "Yhteystiedot"
+
+#: .\templates\base.html.py:103
+msgid "Members"
+msgstr "Jäsenet"
+
+#: .\templates\base.html.py:107
+msgid "Finnish Energy Industries"
+msgstr "Suomen Energiateollisuus"
+
+#: .\templates\base.html.py:108
+msgid "National Association of Finnish Energy Agencies"
+msgstr "Kansallinen yhdistys ja suomalaisista energia virastojen"
+
+#: .\templates\base.html.py:114
+msgid "Statistics and Studies"
+msgstr "Tilastot ja tutkimukset"
+
+#: .\templates\base.html.py:117
+msgid "Monthly electricity supply in Finland"
+msgstr "Kuukauden sähköntoimittajien Suomessa"
+
+#: .\templates\base.html.py:118
+msgid "Electricity market"
+msgstr "Sähkömarkkinat"
+
+#: .\templates\base.html.py:119
+msgid "Natural gas market"
+msgstr "Maakaasun markkinat"
+
+#: .\templates\base.html.py:123
+msgid "News and Events"
+msgstr "Uutiset ja tapahtumat"
+
+#: .\templates\base.html.py:126
+msgid "Meeting at 27th October Helsinki"
+msgstr "Tapaaminen 27 lokakuu Helsinki"
+
+#: .\templates\base.html.py:130
+msgid "Links"
+msgstr "Linkit"
+
+#: .\templates\base.html.py:133
+msgid "Ministry of Employment and Economy"
+msgstr "Työ-ja elinkeinoministeriö"
+
+#: .\templates\index.html.py:7
+msgid "Welcome."
+msgstr "Tervetuloa."
+
+#: .\templates\index.html.py:8
+msgid ""
+"Finland water and energy services association is a member-based association "
+"dedicated to improving the implementation of water energy development, "
+"management and distribution..."
+msgstr ""
+"Suomen vesi-ja energiahuollon palvelut yhdistys on jäsenenä perustuva "
+"yhdistys omistautunut parantamaan täytäntöönpanoa vesivoima kehittäminen, "
+"hallinta ja jakelu ..."
+
+#: .\templates\index.html.py:10
+msgid "|READ MORE|"
+msgstr "|LUE LISÄÄ|"

@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{%  load i18n %}
+{% block content %}
+<!--<p>{%  trans """Finland Water and Energy Services role is to organize
+ coordinate and arrange meeting between members.""" %}</p>-->
+
+<p><strong>{% trans 'Welcome.' %}</strong> 
+{% trans 'Finland water and energy services association is a member-based association dedicated to improving the implementation of water energy development, management and distribution...' %}</p>
+
+<a href="#" id="expand">{% trans '|READ MORE|' %}</a>
+
+<p id="more">{% trans 'The aim of the association is to discuss share and promote devlopment and use of various water and  energy services in Finland.Currently the association has got 5 member companies.' %}</p>	
+ 
+{% endblock %}
